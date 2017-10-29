@@ -1,0 +1,3 @@
+// Compiled Javascript Files from typescript
+*.js
+*.js.map

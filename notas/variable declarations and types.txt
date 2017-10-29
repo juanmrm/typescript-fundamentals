@@ -1,0 +1,14 @@
+Tipos:
+  Number
+  String
+  Boolean
+  Any
+  void
+  Null
+
+Declaraciones de variables:
+
+  let: scope is limited to the block of code within
+  const: declara variable that is not going to change
+  var: global scope
+

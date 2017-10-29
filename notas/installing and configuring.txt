@@ -1,0 +1,31 @@
+Typescript is the typed superset of Javascript that compiles to Javascript.
+  - Types enforcement
+  - Easy to mantain
+  - Cross-Platform support
+
+  1 - Instalar Typescript globalmente:
+    npm install -g typescript
+
+  2 - Execute / Debug code  
+    
+    2.1 Crear y configurar el fichero launch.json:    
+      View -> Debug: Open launch.json
+    
+    2.2 Creamos un fichero tsconfig.json en nuestra raiz y configurlo
+
+    2.3 Configurar la tarea de construccion por defecto
+
+      Tasks -> Configure Default Build Task -> tsc watch
+
+    2.4 Lanzar la tarea de construccion 
+      Tasks -> Run Build Task (va a generar la compilacion a Javascript y generar tb source map si lo tenemos a true en tsconfig)
+
+    2.5 Debug -> Start Debugging.
+
+  3 - Configuracion para ocultar en el editos los js generados en la compilacion
+
+    Configurar en workspace tab files.exclude, añadir
+         "**/*.js": true,
+         "**/**.js.map": true
+
+  
