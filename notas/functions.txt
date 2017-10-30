@@ -1,0 +1,28 @@
+Ver functions.js.
+
+1 - Function parameters:
+  - parameter with types
+
+  - rest parameters
+    function getNumbers(...nums: number[]) {
+      nums.forEach(element => {
+        console.log("Number : " + element)
+      }
+    }
+
+  - default parameters
+    function areYouHuman(answer:boolean = true) {
+      ....
+    }
+
+2 - Anonymous Functions: funciones sin nombre
+  
+  let getNames = function (fName: string, lName: string) {
+    return fName + "..." + lName;
+  }
+  console.log(getNames('Juan', 'Miguel'));
+
+3 -  Arrow Function / Lambda Function
+
+  let getNamesArrow = (fName: string, lName: string) => {return fName + "..." + lName}
+  console.log(getNames('Juan', 'Miguel'));
