@@ -1,0 +1,6 @@
+Typescript core principles -> type checking focuses on the shape that values have.
+Sometimes called "duck typing" or "structural typing".
+
+Interfaces defines contracts within your code as well as contracts with code outside of your project.
+
+Las Interfaces puede contener metodos, anonymous functions o variables.

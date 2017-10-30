@@ -1,0 +1,6 @@
+Las clases tienen:
+  atributos / variables
+  constructor (no lleva el nombre de la clase != Java)
+  methods // Son funciones, pero no hay que poner la keyword function
+
+  ver Students class in app.ts

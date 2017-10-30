@@ -1,5 +1,3 @@
-Ver functions.js.
-
 1 - Function parameters:
   - parameter with types
 
