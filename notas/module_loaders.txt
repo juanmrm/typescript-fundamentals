@@ -1,0 +1,3 @@
+Se configurar en el tsconfig.json propiedad module y target.
+
+Ver capturas module_loader_1.png y module_loader_2.png
