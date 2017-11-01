@@ -1,4 +1,4 @@
-class Student {
+export default class Student {
   // Poniendo private a las variables -> Shorthand, nos evitamos tener que declarar los atributos y asignarlos en el constructor
  constructor(private fName: string, private lName: string) {}
 
@@ -8,4 +8,4 @@ class Student {
 
 }
 
-export { Student };
+// export { Student };

@@ -1,5 +1,7 @@
 import { IStudentInfo } from "./IStudentInfo";
-import { Student } from './Student'
+import Student from "./Student";
+// import Stud from "./Student"; Podemos usar un alias y del mismo modo estariamos importando la default class exportada en Student.ts
+// import { Student } from './Student'
 
 // Enum definition
 enum LanguagesKnown { English, Hindi, Tamil };
