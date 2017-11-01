@@ -1,0 +1,22 @@
+{
+  "name": "typescript-fundamentals",
+  "version": "1.0.0",
+  "description": "Typescript Fundamentals",
+  "main": "IStudentInfo.js",
+  "dependencies": {
+    "@types/selenium-webdriver": "^3.0.8"
+  },
+  "devDependencies": {
+    "selenium-webdriver": "^3.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-juanmrm:juanmrm/typescript-fundamentals.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

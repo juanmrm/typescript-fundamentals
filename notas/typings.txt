@@ -1,0 +1,9 @@
+https://github.com/typings/typings
+
+A partir de Typescript 2.0 la forma de instalar type definitions es:
+  npm install @types/<package>
+
+Para usarlos primero haremos :
+  /// <reference path="./node_modules/@types/selenium-webdriver/index.d.ts" />
+
+  import * as Webdriver from 'selenium-webdriver'
